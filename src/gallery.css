@@ -1,0 +1,8 @@
+.gallery__photo {
+  height: 240px;
+  width: 200px;
+}
+.gallery__photos {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=gallery.css.map */

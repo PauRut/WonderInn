@@ -1,0 +1,48 @@
+.work {
+  background-color: #0b6a7f;
+  padding: 80px 100px;
+}
+.work__block {
+  margin-left: 15px;
+}
+.work__description {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  margin: 0;
+}
+.work__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 80px;
+  grid-template-rows: 1fr 1fr;
+}
+.work__header {
+  font-size: 48px;
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  margin: 50px 0 75px 0;
+}
+.work__img {
+  height: 69px;
+  width: 69px;
+}
+.work__item {
+  display: grid;
+  grid-column: 70px 1fr;
+}
+.work__paragraph {
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.work__underline {
+  height: 3px;
+  width: 48px;
+  border: none;
+  background-color: #fff;
+  margin: 0;
+}/*# sourceMappingURL=work.css.map */

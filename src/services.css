@@ -1,0 +1,44 @@
+.services {
+  font-family: "Barlow", sans-serif;
+  background-color: #f5f5f5;
+  color: #191F37;
+  padding: 120px;
+}
+.services__articles {
+  width: 356px;
+}
+.services__description {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #191F37;
+}
+.services__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+.services__header {
+  font-size: 48px;
+  color: #191F37;
+  margin-bottom: 50px;
+}
+.services__icon {
+  height: 40px;
+  width: 50px;
+}
+.services__paragraph {
+  font-size: 17px;
+  font-weight: normal;
+  font-family: "Barlow", sans-serif;
+  margin-top: 15px 0 0 0;
+  color: #535769;
+}
+.services__underline {
+  height: 3px;
+  width: 48px;
+  border: none;
+  background-color: #0b6a7f;
+  margin: 0;
+}/*# sourceMappingURL=services.css.map */

@@ -1,0 +1,20 @@
+.gallery {
+    background-color: $dirtywhite;
+    padding: 0 100px 80px 100px;
+    &__photo {
+        height: 240px;
+        width: 200px;
+    }
+
+    &__photos {
+        display: flex;
+        justify-content: space-around;
+        &::before {
+            content: "";
+            background-color: $turquise;
+            width: 36x;
+            height: 36px;
+            border-radius: 50%;
+        }
+    }
+}

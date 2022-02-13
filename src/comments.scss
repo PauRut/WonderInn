@@ -1,0 +1,38 @@
+@import "_variables.scss";
+
+.comments {
+    margin: 120px 100px;
+    &__description {
+        font-size: 18px;
+        font-family: 'Roboto';
+        color: #fff;
+        margin: 18px 50px 50px 50px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+    }
+    &__link {
+        color:$yellow;
+        font-size: 18px;
+        font-family: 'Roboto';
+        margin: 23px 0 18px 0;
+    }
+    &__name {
+        margin-bottom: 23px;
+        font-size: 20px;
+        color: #fff;
+        font-family: 'Barlow';
+    }
+    &__photo {
+        margin-top: -45px;
+    }
+    &__table {
+        background-color: $turquise;
+        border-radius: 30px;
+        text-align: center;
+    }
+}

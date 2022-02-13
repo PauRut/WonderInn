@@ -1,0 +1,47 @@
+@import "_variables.scss";
+
+
+.services{
+    font-family: 'Barlow', sans-serif;
+    background-color: $dirtywhite;
+    color: $main;
+    padding: 120px;
+    &__articles {
+        width: 356px;
+    }
+    &__description {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        color: $main;
+    }
+    &__grid {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 60px;    
+    }
+    &__header {
+        font-size: $h2;
+        color: $main;
+        margin-bottom: 50px;
+    }
+    &__icon {
+        height: 40px;
+        width: 50px;
+    }
+    &__paragraph {
+        font-size: 17px;
+        font-weight: normal;
+        font-family: 'Barlow', sans-serif;
+        margin-top: 15px 0 0 0;
+        color: $gray;
+    }
+    &__underline {
+        height:3px; 
+        width: 48px;
+        border:none; 
+        background-color:$turquise;
+        margin: 0;   
+    }
+}
+

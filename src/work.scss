@@ -1,0 +1,51 @@
+@import "_variables.scss";
+
+.work {
+    background-color: $turquise;
+    padding: 80px 100px;
+    &__block {
+        margin-left: 15px;
+    }
+    &__description {
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        margin: 0;
+    }
+    &__grid {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 40px;        
+        row-gap: 80px;
+        grid-template-rows: 1fr 1fr;
+    }
+    &__header {
+        font-size: $h2;
+        color: #fff;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 600;  
+        margin: 50px 0 75px 0; 
+    }
+    &__img {
+        height: 69px;
+        width: 69px;
+    }
+    &__item {
+        display: grid;
+        grid-column: 70px 1fr;
+       
+
+    }
+    &__paragraph {
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+    }
+    &__underline {
+        height:3px; 
+        width: 48px;
+        border:none; 
+        background-color:#fff;
+        margin:0;
+    }
+}

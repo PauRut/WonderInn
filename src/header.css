@@ -59,9 +59,9 @@
   line-height: 25x;
 }
 .header__extra::after {
-  content: "❯";
-  transform: rotate(90deg);
-  font-size: 10px;
+  content: "∨";
+  font-size: 13px;
+  font-weight: bold;
   color: #fff;
 }
 .header__flag {

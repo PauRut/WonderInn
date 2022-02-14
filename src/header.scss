@@ -66,10 +66,10 @@
     }
     &__extra {
         &::after {
-        content:"\276F";
-        transform: rotate(90deg);
-        font-size: 10px;
-        color: #fff;        
+        content:"∨";
+        font-size: 13px;
+        font-weight: bold;
+        color: #fff;   
     }
     }
     &__flag {

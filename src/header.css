@@ -59,7 +59,10 @@
   line-height: 25x;
 }
 .header__extra::after {
-  content: "✔";
+  content: "❯";
+  transform: rotate(90deg);
+  font-size: 10px;
+  color: #fff;
 }
 .header__flag {
   display: block;

@@ -1,9 +1,8 @@
 @charset "UTF-8";
 .header {
-  background-image: url("/assets/img/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 99vh;
+  background-color: #676767;
+  overflow: hidden;
+  height: 100vh;
   width: 100%;
 }
 .header__article {
@@ -36,12 +35,8 @@
   font-size: 16px;
   font-weight: 700;
 }
-.header__cursor {
-  position: relative;
-}
 .header__cursor::before {
   content: "";
-  position: absolute;
   width: 0;
   height: 2px;
   bottom: 0;
@@ -61,6 +56,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   margin-bottom: 30px;
+  line-height: 25x;
 }
 .header__extra::after {
   content: "✔";
@@ -89,10 +85,11 @@
 }
 .header__logo {
   cursor: pointer;
-  margin-left: -40px;
+  margin-left: -130px;
 }
 .header__nav {
   height: 100px;
+  position: relative;
 }
 .header__telephone {
   text-decoration: none;

@@ -1,14 +1,17 @@
+@import "_variables.scss";
+
 .gallery {
     background-color: $dirtywhite;
     padding: 0 100px 80px 100px;
     &__photo {
         height: 240px;
-        width: 200px;
+        width: 190px;
     }
 
     &__photos {
         display: flex;
         justify-content: space-around;
+        width: 1200px;
         &::before {
             content: "";
             background-color: $turquise;

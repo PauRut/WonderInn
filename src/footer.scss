@@ -1,0 +1,17 @@
+@import "_variables.scss";
+
+.footer {
+    background-color: $turquise;
+    margin: 0;
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    &__social {
+    display: inline;    
+    &--media {
+        height: 40px;
+        width: 35px;
+    }
+}
+}

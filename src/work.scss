@@ -12,17 +12,7 @@
         color: #fff;
         margin: 0;
     }
-    &__circle {
-        border: solid #fff 1px;
-        border-color: #f5f5f5;
-        width: 67px;
-        height: 67px;
-        line-height: 67px;
-        border-radius: 50%;
-        font-size: 24px;
-        display: inline-block;
 
-    }
     &__grid {
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -41,15 +31,15 @@
         height: 24px;
         width: 24px;
         fill: #fff; 
-        align-items: center; 
-
+        align-items: center;
+        border: solid #fff 1px; 
+        border-radius: 50%;
+        padding: 21px;
     }
     &__item {
         display: grid;
-        grid-column: 70px 1fr;
-       
-
-    }
+        grid-template-columns: 70px 1fr;
+   }
     &__paragraph {
         font-size: 17px;
         font-family: 'Roboto', sans-serif;
@@ -63,3 +53,5 @@
         margin:0;
     }
 }
+
+

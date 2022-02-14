@@ -1,0 +1,15 @@
+.footer {
+  background-color: #0b6a7f;
+  margin: 0;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer__social {
+  display: inline;
+}
+.footer__social--media {
+  height: 40px;
+  width: 35px;
+}/*# sourceMappingURL=footer.css.map */

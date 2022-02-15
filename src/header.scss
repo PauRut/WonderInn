@@ -6,12 +6,27 @@
     overflow:hidden;
     height: 100vh;
     width: 100%;
+    @media  (max-width: $mobileL) {
+        background-color: lightgreen;
+        min-width: 425px;
+        min-height: 629px;
+        padding: 0 15px;
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/img/background_mobile.jpg);
+
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
     &__article {
         height: 585px;
         margin-left:200px;
         width: 585px;
         color: #fff;
         font-family: 'Barlow', sans-serif;
+        @media (max-width: $mobileL) {
+            height: 152px;
+            width: 425px;
+            margin: 10px;
+        }
     }
     &__button {
         background-color: #0c697f;
@@ -27,6 +42,9 @@
         &:hover{
             background-color: rgb(25, 31, 55);
         }
+        @media  (max-width: $mobileL) {
+            position: absolute;
+            bottom: 135px;        }
     }
     &__content {
         padding-left: 120px;
@@ -49,22 +67,36 @@
             background-color: #FFF;
             visibility: hidden;
             transition: all 0.1s ease-in-out;
-          }
+            }
         &:hover {
             text-decoration: underline;
-                }
+            }
         &:hover:before {
             visibility: visible;
             width: 100%;
           }
         }
 
-    &__description{
+    &__description {
         font-family: 'Roboto', sans-serif;
         font-size: 17px;
         margin-bottom: 30px;
         line-height: 25x;
+        @media (max-width: $mobileL) {
+            display: none;
+        }
+        &--mobile {
+            display:none;
+            @media (max-width: $mobileL) {
+                display: block;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                line-height: 20px;
+                max-width: 395px;
             }
+        }
+        }
+
     &__extra {
         &::after {
         content:"∨";
@@ -80,6 +112,11 @@
         font-size: 70px;
         line-height: 62px;
         font-weight: bold;
+        @media only screen and (max-width: 600px) {
+            font-size: 35px;
+            line-height: 35px;
+            max-width: 395px;
+        }
     }
     &__link {
         text-decoration: none;
@@ -89,17 +126,25 @@
         font-style: normal;
         text-decoration: none;
         cursor: pointer; 
+        @media  (max-width: $mobileL) {
+            display: none;
+    }
     }
     &__list {
         display: flex;
         flex-direction: row;
         margin-top: 30px;
+        
     }
     &__logo {
         cursor: pointer;
         margin-left: -130px; 
         margin-top: 10px;
-   }
+        @media  (max-width: $mobileL) {
+            margin-left: -500px; 
+
+    }
+    }
     &__nav {
         height: 100px;
         position: relative;
@@ -125,4 +170,5 @@
         }
     }
 }
+
 

@@ -6,6 +6,9 @@
     background-color: $dirtywhite;
     color: $main;
     padding: 120px;
+    @media  (max-width: $mobileL) {
+        padding: 20px;
+    }
     &__articles {
         width: 356px;
     }

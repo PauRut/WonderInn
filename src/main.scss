@@ -10,7 +10,6 @@
 @import "footer.scss";
 
 
-
 html {
     box-sizing: border-box;
     scroll-behavior: smooth; 
@@ -18,3 +17,9 @@ html {
 body {
 margin:0
 } 
+
+// @media only screen and (max-width: $mobileL) {
+//     body {
+//       background-color: lightcoral;
+//     }
+//   }

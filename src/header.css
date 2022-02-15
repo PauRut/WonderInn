@@ -90,6 +90,7 @@
 .header__logo {
   cursor: pointer;
   margin-left: -130px;
+  margin-top: 10px;
 }
 .header__nav {
   height: 100px;

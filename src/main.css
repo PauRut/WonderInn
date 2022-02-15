@@ -65,6 +65,12 @@
   font-weight: bold;
   color: #fff;
 }
+.header__extra--overnatting:hover {
+  contenty: "hi";
+  background: #0b6a7f;
+  height: 100px;
+  width: 100px;
+}
 .header__flag {
   display: block;
 }
@@ -90,6 +96,7 @@
 .header__logo {
   cursor: pointer;
   margin-left: -130px;
+  margin-top: 10px;
 }
 .header__nav {
   height: 100px;

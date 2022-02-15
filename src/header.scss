@@ -6,19 +6,12 @@
     overflow:hidden;
     height: 100vh;
     width: 100%;
-    @media (max-width: $mobileL) {
-        background-image: url(assets/img/background_mobile.jpg);
-        background-color:blueviolet;
-        
-
-    }
     &__article {
-    height: 585px;
-    margin-left:200px;
-    width: 585px;
-    color: #fff;
-    font-family: 'Barlow', sans-serif;
-      
+        height: 585px;
+        margin-left:200px;
+        width: 585px;
+        color: #fff;
+        font-family: 'Barlow', sans-serif;
     }
     &__button {
         background-color: #0c697f;
@@ -31,14 +24,9 @@
         font-family: Arial, Helvetica, sans-serif;
         letter-spacing: 5px;
         line-height: 26px;
-        @media (max-width: $mobileL) {
-            left: 0;
-            bottom: 0;
-        }
         &:hover{
             background-color: rgb(25, 31, 55);
         }
-
     }
     &__content {
         padding-left: 120px;
@@ -76,11 +64,7 @@
         font-size: 17px;
         margin-bottom: 30px;
         line-height: 25x;
-        @media (max-width: $mobileL) {
-            font-size: 14px;
-            text-align: center;
-
-        }
+            }
     &__extra {
         &::after {
         content:"∨";
@@ -88,21 +72,14 @@
         font-weight: bold;
         color: #fff;   
         }
-
     }
     &__flag {
         display: block;
-
     }
     &__header {
         font-size: 70px;
         line-height: 62px;
         font-weight: bold;
-        @media (max-width: $mobileL) {
-            font-size: 35px;
-            line-height: 35px;  
-            align-content: center;          
-        }
     }
     &__link {
         text-decoration: none;
@@ -117,24 +94,15 @@
         display: flex;
         flex-direction: row;
         margin-top: 30px;
-        @media (max-width: $mobileL) {
-            display: none;
-        }
     }
     &__logo {
         cursor: pointer;
         margin-left: -130px; 
         margin-top: 10px;
-        @media (max-width: $mobileL) {
-            height: 40px;
-            width: 50px;
-            margin-top: 10px;
-
-        }
    }
     &__nav {
-    height: 100px;
-    position: relative;
+        height: 100px;
+        position: relative;
     }
     // &__video {
     //     position: relative;
@@ -156,7 +124,5 @@
             color:$yellow;
         }
     }
-    
 }
 
-}

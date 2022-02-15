@@ -5,12 +5,6 @@
   height: 100vh;
   width: 100%;
 }
-@media (max-width: 425px) {
-  .header {
-    background-image: url(assets/img/background_mobile.jpg);
-    background-color: blueviolet;
-  }
-}
 .header__article {
   height: 585px;
   margin-left: 200px;
@@ -29,12 +23,6 @@
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 5px;
   line-height: 26px;
-}
-@media (max-width: 425px) {
-  .header__button {
-    left: 0;
-    bottom: 0;
-  }
 }
 .header__button:hover {
   background-color: #191f37;
@@ -71,34 +59,21 @@
   margin-bottom: 30px;
   line-height: 25x;
 }
-@media (max-width: 425px) {
-  .header__description {
-    font-size: 14px;
-    text-align: center;
-  }
-}
-.header__description__extra::after {
+.header__extra::after {
   content: "∨";
   font-size: 13px;
   font-weight: bold;
   color: #fff;
 }
-.header__description__flag {
+.header__flag {
   display: block;
 }
-.header__description__header {
+.header__header {
   font-size: 70px;
   line-height: 62px;
   font-weight: bold;
 }
-@media (max-width: 425px) {
-  .header__description__header {
-    font-size: 35px;
-    line-height: 35px;
-    align-content: center;
-  }
-}
-.header__description__link {
+.header__link {
   text-decoration: none;
   color: #fff;
   font-family: "Barlow", sans-serif;
@@ -107,39 +82,27 @@
   text-decoration: none;
   cursor: pointer;
 }
-.header__description__list {
+.header__list {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
 }
-@media (max-width: 425px) {
-  .header__description__list {
-    display: none;
-  }
-}
-.header__description__logo {
+.header__logo {
   cursor: pointer;
   margin-left: -130px;
   margin-top: 10px;
 }
-@media (max-width: 425px) {
-  .header__description__logo {
-    height: 40px;
-    width: 50px;
-    margin-top: 10px;
-  }
-}
-.header__description__nav {
+.header__nav {
   height: 100px;
   position: relative;
 }
-.header__description__telephone {
+.header__telephone {
   text-decoration: none;
   color: #fff;
   text-align: right;
   font-size: 18px;
   font-family: "Barlow", sans-serif;
 }
-.header__description__telephone:hover {
+.header__telephone:hover {
   color: #eeee22;
 }/*# sourceMappingURL=header.css.map */

@@ -6,7 +6,15 @@
 @import "work.scss"; 
 @import "comments.scss";
 @import "scroll.scss";
+@import "contact.scss";
 @import "footer.scss";
 
 
 
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+body {
+margin:0
+} 

@@ -1,17 +1,13 @@
 @import "_variables.scss";
 
 .footer {
+    color: #f5f5f5;
     background-color: $turquise;
-    margin: 0;
-    &__grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 100px;
+    font-size: 13px;
+    font-family: 'Roboto';
+    &__link {
+        text-decoration: none;
+        color: #f5f5f5;
     }
-    &__social {
-    display: inline;    
-    &--media {
-        height: 40px;
-        width: 35px;
-    }
-}
 }

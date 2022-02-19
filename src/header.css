@@ -11,7 +11,7 @@
     min-width: 425px;
     min-height: 629px;
     padding: 0 15px;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/img/background_mobile.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/img/background_mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }

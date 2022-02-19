@@ -8,11 +8,14 @@
 @import "scroll.scss";
 @import "contact.scss";
 @import "footer.scss";
+@import "main.js";
 
 
 html {
     box-sizing: border-box;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
+    background-color: $dirtywhite;
+ 
 }
 body {
 margin:0

@@ -5,12 +5,15 @@
     font-family: 'Barlow', sans-serif;
     background-color: $dirtywhite;
     color: $main;
-    padding: 15px;
+    padding: 100px 20px 0 ;
+    
     @media  (min-width: $desktop) {
         padding: 120px;
     }
     &__articles {
         max-width: 385px;
+        padding: 0 20px;
+
         @media  (min-width: $desktop) {
         width: 356px;
     }

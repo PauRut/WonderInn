@@ -170,7 +170,7 @@
   font-family: "Barlow", sans-serif;
   background-color: #f5f5f5;
   color: #191F37;
-  padding: 15px;
+  padding: 100px 20px 0;
 }
 @media (min-width: 960px) {
   .services {
@@ -179,6 +179,7 @@
 }
 .services__articles {
   max-width: 385px;
+  padding: 0 20px;
 }
 @media (min-width: 960px) {
   .services__articles {
@@ -560,6 +561,7 @@
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background-color: #f5f5f5;
 }
 
 body {

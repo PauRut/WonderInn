@@ -3,29 +3,38 @@
   background-color: #0b6a7f;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 20px 100px;
   margin: 0;
   font-family: "Source Sans Pro", Helvetica, Arial, Verdana, sans-serif;
   color: #fff;
-  font-size: 17px;
-  height: 200px;
+  padding: 30px 20px;
+}
+@media (min-width: 960px) {
+  .contact {
+    font-size: 17px;
+    height: 200px;
+    padding: 20px 100px;
+  }
 }
 .contact__address {
   font-size: 17px;
   margin: 0;
   color: #f5f5f5;
 }
-.contact__column {
-  height: 200px;
+@media (min-width: 960px) {
+  .contact__column {
+    height: 200px;
+  }
 }
 .contact__description {
   color: #f5f5f5;
 }
-.contact__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  -moz-column-gap: 50px;
-       column-gap: 50px;
+@media (min-width: 960px) {
+  .contact__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
 }
 .contact__header {
   font-size: 20px;

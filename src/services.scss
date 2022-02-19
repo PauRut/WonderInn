@@ -5,13 +5,16 @@
     font-family: 'Barlow', sans-serif;
     background-color: $dirtywhite;
     color: $main;
-    padding: 120px;
-    @media  (max-width: $mobileL) {
-        padding: 20px;
+    padding: 15px;
+    @media  (min-width: $desktop) {
+        padding: 120px;
     }
     &__articles {
+        max-width: 385px;
+        @media  (min-width: $desktop) {
         width: 356px;
     }
+}
     &__description {
         font-size: 24px;
         font-weight: bold;
@@ -19,9 +22,12 @@
         color: $main;
     }
     &__grid {
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 60px;    
+        @media  (min-width: $desktop) {
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 60px; 
+        }
+   
     }
     &__header {
         font-size: $h2;

@@ -1,9 +1,15 @@
 .work {
   background-color: #0b6a7f;
-  padding: 80px 100px;
+  padding: 35px 15px 60px 15px;
+}
+@media (min-width: 960px) {
+  .work {
+    padding: 80px 100px;
+  }
 }
 .work__block {
   margin-left: 15px;
+  margin-top: 15px;
 }
 .work__description {
   font-size: 24px;
@@ -11,13 +17,15 @@
   color: #fff;
   margin: 0;
 }
-.work__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  -moz-column-gap: 40px;
-       column-gap: 40px;
-  row-gap: 80px;
-  grid-template-rows: 1fr 1fr;
+@media (min-width: 960px) {
+  .work__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+    row-gap: 80px;
+    grid-template-rows: 1fr 1fr;
+  }
 }
 .work__header {
   font-size: 48px;

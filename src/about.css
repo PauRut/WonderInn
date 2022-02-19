@@ -1,6 +1,11 @@
 .about {
-  padding: 0 100px;
+  padding: 0 15px;
   background-color: #f5f5f5;
+}
+@media (min-width: 960px) {
+  .about {
+    padding: 0 100px;
+  }
 }
 .about__button {
   background-color: #0c697f;
@@ -32,11 +37,13 @@
   line-height: 30px;
   font-weight: normal;
 }
-.about__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  -moz-column-gap: 60px;
-       column-gap: 60px;
+@media (min-width: 960px) {
+  .about__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 60px;
+         column-gap: 60px;
+  }
 }
 .about__header {
   font-size: 48px;
@@ -47,7 +54,12 @@
 .about__logo {
   height: 40px;
   width: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 35px;
+}
+@media (min-width: 960px) {
+  .about__logo {
+    margin-bottom: 100px;
+  }
 }
 .about__paragraph {
   font-size: 28px;

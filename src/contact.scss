@@ -5,28 +5,35 @@
     background-color: $turquise;
     background-repeat: no-repeat;
     background-size: cover;
-
-    padding: 20px 100px;
     margin: 0;
     font-family: "Source Sans Pro", Helvetica, Arial, Verdana, sans-serif;
-    color: #fff;  
-    font-size: 17px;
-    height: 200px;
+    color: #fff; 
+    padding: 30px 20px;
+    @media  (min-width: $desktop) {
+        font-size: 17px;
+        height: 200px;
+        padding: 20px 100px;
+    }
+
     &__address {
         font-size: 17px;
         margin:0;
         color: #f5f5f5;
     } 
     &__column {
-        height: 200px;          
+        @media  (min-width: $desktop) {
+        height: 200px;  
+        }        
     }
     &__description {
         color: #f5f5f5;
     }
     &__grid {
+        @media  (min-width: $desktop) {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 50px;
+        }
     }
     &__header {
         font-size: 20px;

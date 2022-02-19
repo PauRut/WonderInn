@@ -2,9 +2,13 @@
 
 .work {
     background-color: $turquise;
-    padding: 80px 100px;
+    padding: 35px 15px 60px 15px;
+    @media  (min-width: $desktop) {
+        padding: 80px 100px;
+    }
     &__block {
         margin-left: 15px;
+        margin-top: 15px;
     }
     &__description {
         font-size: 24px;
@@ -14,11 +18,13 @@
     }
 
     &__grid {
+        @media  (min-width: $desktop) {
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 40px;        
         row-gap: 80px;
         grid-template-rows: 1fr 1fr;
+    }
     }
     &__header {
         font-size: $h2;

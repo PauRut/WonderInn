@@ -44,6 +44,7 @@
 }
 .header__button:hover {
   background-color: #191f37;
+  font-size: 14px;
 }
 @media (max-width: 425px) {
   .header__button {
@@ -147,7 +148,7 @@
 }
 @media (max-width: 425px) {
   .header__logo {
-    margin-left: -500px;
+    margin-left: -520px;
   }
 }
 .header__nav {

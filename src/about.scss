@@ -1,8 +1,11 @@
 @import "_variables.scss";
 
 .about{
-    padding: 0 100px;
+    padding: 0 15px;
     background-color: $dirtywhite;
+    @media  (min-width: $desktop) {
+        padding: 0 100px;
+    }
     &__button{
         background-color: #0c697f;
         height: 52px;
@@ -34,9 +37,11 @@
         font-weight: normal;
     }
     &__grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr; 
-        column-gap:60px;
+        @media  (min-width: $desktop) {
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+            column-gap:60px; 
+        }
        }
     &__header {
         font-size: $h2;
@@ -47,7 +52,11 @@
     &__logo {
         height: 40px;
         width: 50px;
-        margin-bottom: 100px;
+        margin-bottom: 35px;
+
+        @media  (min-width: $desktop) {
+            margin-bottom: 100px;
+        }
     }
     &__paragraph {
         font-size: 28px;

@@ -41,6 +41,7 @@
         line-height: 26px;
         &:hover{
             background-color: rgb(25, 31, 55);
+            font-size: 14px;
         }
         @media  (max-width: $mobileL) {
             position: absolute;
@@ -141,7 +142,7 @@
         margin-left: -130px; 
         margin-top: 10px;
         @media  (max-width: $mobileL) {
-            margin-left: -500px; 
+            margin-left: -520px; 
 
     }
     }
